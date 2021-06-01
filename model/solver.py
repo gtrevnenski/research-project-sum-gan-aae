@@ -6,7 +6,8 @@ from torch.autograd import Variable
 import json
 from tqdm import tqdm, trange
 
-from layers import Summarizer, Discriminator
+from layers.summarizer import Summarizer
+from layers.discriminator import Discriminator
 from utils import TensorboardWriter
 
 # labels for training the GAN part of the model
